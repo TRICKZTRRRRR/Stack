@@ -13,16 +13,16 @@ namespace Stack.Controller
 
 
         #region Main Controller
-        void MainController()
+        public void MainController()
         {
-
+            Combiner();
         }
         #endregion
 
         #region Combiner
         void Combiner()
         {
-
+            InsertData();
         }
         #endregion
 

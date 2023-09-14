@@ -1,4 +1,5 @@
 ﻿using System;
+using Stack.Controller;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,6 +11,12 @@ namespace Stack
     {
         static void Main(string[] args)
         {
+            #region Execute Controller
+
+            Controller.Controller controller = new Controller.Controller();
+            controller.MainController();
+
+            #endregion
         }
     }
 }
